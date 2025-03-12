@@ -86,7 +86,7 @@
 
 ---
 <div align="center">
-  <img src="https://profile-counter.glitch.me/muktade/count.svg?"  />
+  <img src="https://profile-counter.glitch.me/ma-muktadeer/count.svg?"  />
 </div>
 
 ###

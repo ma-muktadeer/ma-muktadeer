@@ -2,16 +2,16 @@
 <h1 align="center">Assalamu alikum 👋, I'm M A MUKTADEER</h1>
 <h3 align="center">I'm a passionate Java Developer. I'm currently working as a Junior Full Stack Software Engineer at Softcafe IT Solution.</h3>
 
-<img align="right" alt="muktadeer" width="400" src="https://github.com/muktade/muktade/blob/main/gif.gif">
+<img align="right" alt="muktadeer" width="400" src="https://github.com/ma-muktadeer/ma-muktadeer/blob/main/gif.gif">
 
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/muktade/count.svg?"  />
+  <img src="https://profile-counter.glitch.me/ma-muktadeer/count.svg?"  />
 </div>
 
 ###
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=muktade&label=Profile%20views&color=0e75b6&style=flat" alt="muktade" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ma-muktadeer&label=Profile%20views&color=0e75b6&style=flat" alt="muktade" /> </p>
 
 - 👨‍💻 All of my projects are available at [https://bitbucket.org/muktadeer/](https://bitbucket.org/muktadeer/)
 
@@ -33,13 +33,13 @@
 #### 📊 GitHub Stats:
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=muktade&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=ma-muktadeer&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
 
-  <!-- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=muktade&show_icons=true&count_private=true)   -->
+  <!-- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=ma-muktadeer&show_icons=true&count_private=true)   -->
 
   <img src="https://streak-stats.demolab.com?user=muktade&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=muktade&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muktade&locale=en&hide_title=false&card_width=640&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ma-muktadeer&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ma-muktadeer&locale=en&hide_title=false&card_width=640&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 
   
 </div>
@@ -72,17 +72,17 @@
 <!-- [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/muktade)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg' alt='gmail' height='40'>](muktadeer.ru@gmail.com)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/whatsapp.svg' alt='whatsapp' height='40'>](https://wa.me/qr/RQS4QWYDB6FJI1) -->
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=muktade&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=ma-muktadeer&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### 🏆 GitHub Activity 
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/muktade/muktade/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/ma-muktadeer/ma-muktadeer/output/snake.svg" alt="Snake animation" />
 
 
 ### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=muktade&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=ma-muktadeer&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
 <div align="center">

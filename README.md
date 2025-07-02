@@ -19,7 +19,7 @@
 
 - 📫 How to reach me **muktadeer.ru@gmail.com**
 
-- 📄 Know about my experiences [(https://muktadeercv.vercel.app/)](https://muktade.github.io/resume/)
+- 📄 Know about my experiences [(MUKTADEER.CV)](https://muktadeercv.vercel.app/)
 
 - ⚡ Fun fact **I Like Coding ❤😆😎💕**
 

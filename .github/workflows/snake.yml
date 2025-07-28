@@ -2,8 +2,7 @@ name: Generate Gradient Snake
 
 on:
   schedule:
-    # প্রতিদিন রাত 12 টায় update হবে
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"  # প্রতি 12 ঘন্টায়
   workflow_dispatch:
 
 permissions:

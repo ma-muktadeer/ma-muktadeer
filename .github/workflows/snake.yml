@@ -13,22 +13,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ma-muktadeer
-          outputs: |
-            dist/snake.svg
-          color_snake: "#ff6ec4"
-          color_dots: "#ff6ec4 #7873f5 #06b6d4"  # gradient effect
-          color_background: "transparent"
-          speed: 2  # slow speed for smooth animation
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Push snake animation to output branch
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install d3 node-fetch
+
+      - name: Generate Gradient Snake SVG
+        run: node scripts/generate-gradient-snake.js
+
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan output
-          git --work-tree=dist add --all
-          git commit -m "Generate gradient snake"
-          git push origin output --force
+          git add -A
+          git commit -m "Update gradient snake"
+          git push

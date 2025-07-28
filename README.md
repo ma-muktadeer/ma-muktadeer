@@ -64,7 +64,7 @@
 
 ### 🔄 Contribution Snake
 
-![snake gif](https://github.com/ma-muktadeer/ma-muktadeer/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/ma-muktadeer/ma-muktadeer/output/snake.svg)
 
 ---
 

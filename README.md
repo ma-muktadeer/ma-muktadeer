@@ -64,7 +64,7 @@
 
 ### 🔄 Contribution Snake
 
-![Snake animation](https://raw.githubusercontent.com/ma-muktadeer/ma-muktadeer/output/snake.svg)
+![Snake animation](https://github.com/ma-muktadeer/ma-muktadeer/blob/output/snake.svg?raw=true)
 
 ---
 

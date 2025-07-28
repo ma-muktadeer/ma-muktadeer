@@ -1,5 +1,6 @@
 name: Generate Snake Animation
-
+permissions:
+  contents: write
 on:
   schedule:
     - cron: "0 */12 * * *" # প্রতি 12 ঘন্টায় auto update হবে

@@ -26,9 +26,10 @@ jobs:
           outputs: |
             dist/snake.svg
           # Unique design customization
-          color_snake: "#8B5CF6"          # Snake color (Purple 500)
+          color_snake: "#101ee3"          # Snake color (Purple 500)
           color_dots: "#06b6d4 #3b82f6"   # Dots gradient (Cyan → Blue)
           color_background: "transparent" # Transparent background
+          frame_duration: 120
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v3

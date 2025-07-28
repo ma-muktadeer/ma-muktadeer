@@ -1,8 +1,6 @@
 <!-- Header Banner -->
 ![Header](./github-header-image.png)
 
-![Banner](./assets/banner.png)
-
 <h1 align="center">Assalamu Alaikum (আসসালামু আলাইকুম) 👋, I'm M A MUKTADEER</h1>
 <h3 align="center">Full Stack Software Engineer | Spring Boot • Angular • Flutter</h3>
 

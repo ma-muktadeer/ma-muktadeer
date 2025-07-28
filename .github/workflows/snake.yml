@@ -1,15 +1,13 @@
 name: Generate Snake Animation
 
-# Workflow trigger
 on:
   schedule:
-    - cron: "0 */12 * * *"  # প্রতি 12 ঘন্টায় auto run
-  workflow_dispatch:          # Manual run option
+    - cron: "0 0 * * *" # প্রতিদিন রাত ১২টায় রান হবে
+  workflow_dispatch:
   push:
     branches:
       - main
 
-# Permissions fix
 permissions:
   contents: write
 
@@ -18,23 +16,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Generate Snake with custom color
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ma-muktadeer
           outputs: |
             dist/snake.svg
-          # Customization
-          color_snake: "#3B82F6"          # Tail color (blue-500)
-          color_dots: "#FACC15 #22C55E"   # Dots gradient (yellow-green)
-          color_background: "transparent" # Background transparent
+          # Unique design customization
+          color_snake: "#8B5CF6"          # Snake color (Purple 500)
+          color_dots: "#06b6d4 #3b82f6"   # Dots gradient (Cyan → Blue)
+          color_background: "transparent" # Transparent background
 
-      # Push snake.svg to output branch
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:

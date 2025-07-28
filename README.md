@@ -63,6 +63,10 @@
 ---
 
 ### 🔄 Contribution Snake
+<p align="center">
+  <img src="./snake.svg" alt="gradient snake animation" />
+</p>
+
 
 ![Snake animation](https://github.com/ma-muktadeer/ma-muktadeer/blob/output/snake.svg?raw=true)
 

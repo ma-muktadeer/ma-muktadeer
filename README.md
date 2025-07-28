@@ -9,7 +9,6 @@
 <!-- Profile Views & Counter -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ma-muktadeer&label=Profile%20Views&color=blue&style=for-the-badge" alt="Profile Views" />
-  <img src="https://profile-counter.glitch.me/ma-muktadeer/count.svg" />
 </p>
 
 ---

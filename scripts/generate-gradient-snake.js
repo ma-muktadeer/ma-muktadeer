@@ -20,7 +20,6 @@ async function getContributionData() {
 // Generate SVG with gradient snake
 async function generateSnake() {
   const contributions = await getContributionData();
-
   const svg = d3.create("svg")
     .attr("viewBox", `0 0 ${width} ${height}`)
     .attr("xmlns", "http://www.w3.org/2000/svg");

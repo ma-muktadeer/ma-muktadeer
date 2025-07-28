@@ -43,7 +43,7 @@ async function generateSnake() {
     .attr("stroke-width", 8)
     .attr("fill", "none");
 
-  fs.writeFileSync("snake.svg", svg.node().outerHTML);
+  fs.writeFileSync("snake1.svg", svg.node().outerHTML);
 }
 
 generateSnake();

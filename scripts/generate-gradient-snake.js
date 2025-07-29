@@ -1,6 +1,7 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
-const d3 = require("d3");
+import fs from "fs";
+import fetch from "node-fetch";
+import * as d3 from "d3";
+import { JSDOM } from "jsdom";
 
 const username = "ma-muktadeer";
 const width = 800;
@@ -15,6 +16,10 @@ async function getContributionData() {
 }
 
 async function generateSnake() {
+  // Create virtual DOM
+  const dom = new JSDOM(`<body></body>`);
+  global.document = dom.window.document;
+
   const contributions = await getContributionData();
   const svg = d3.create("svg")
     .attr("viewBox", `0 0 ${width} ${height}`)

@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # প্রতিদিন রাত ১২টায় রান হবে
+    - cron: "0 0 * * *" # Runs every day at midnight
   workflow_dispatch:
 
 permissions:
@@ -17,6 +17,9 @@ jobs:
         with:
           github_user_name: ma-muktadeer
           outputs: dist/snake.svg
+
+      - name: Fix permissions for dist
+        run: chmod -R u+w dist
 
       - name: Add Gradient to Snake
         run: |

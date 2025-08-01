@@ -19,7 +19,7 @@ jobs:
           outputs: dist/snake.svg
 
       - name: Fix permissions for dist (ignore errors)
-	run: chmod -R u+w dist || true
+        run: chmod -R u+w dist || true
 
       - name: Add Gradient to Snake
         run: |

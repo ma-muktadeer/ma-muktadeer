@@ -68,7 +68,9 @@
 </p>
 
 
-![Snake animation](https://github.com/ma-muktadeer/ma-muktadeer/blob/output/snake.svg?raw=true)
+<!-- ![Snake animation](https://github.com/ma-muktadeer/ma-muktadeer/blob/output/snake.svg?raw=true) -->
+![Snake animation](https://raw.githubusercontent.com/ma-muktadeer/ma-muktadeer/output/snake.svg)
+
 
 ---
 

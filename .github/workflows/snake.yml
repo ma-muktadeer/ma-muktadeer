@@ -1,36 +1,58 @@
-name: Generate Snake
+name: Generate Snake Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight
+    # Runs every day at midnight UTC
+    - cron: "0 0 * * *"
+  # Allows manual triggering from GitHub Actions tab
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Prevents overlapping runs
+concurrency:
+  group: snake-graph
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
+      # 1. Generate the snake SVG
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ma-muktadeer
           outputs: dist/snake.svg
 
+      # 2. Ensure proper permissions (avoid errors on GitHub runner)
       - name: Fix permissions for dist (ignore errors)
         run: |
           sudo chown -R $USER:$USER dist || true
           chmod -R u+w dist || true
 
+      # 3. Add custom gradient (safe insert)
       - name: Add Gradient to Snake
         run: |
-          sed -i 's/stroke="#.*"/stroke="url(#gradient)"/' dist/snake.svg
+          # Replace stroke color with gradient reference
+          sed -i 's/stroke="#[A-Fa-f0-9]\{6\}"/stroke="url(#gradient)"/' dist/snake.svg
+          # Inject gradient definition after <svg> tag
           sed -i '/<svg[^>]*>/a <defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff6a00"/><stop offset="50%" stop-color="#ee0979"/><stop offset="100%" stop-color="#06beb6"/></linearGradient></defs>' dist/snake.svg
+
+      # 4. Optional: Create light & dark mode versions
+      - name: Generate Dark Snake
+        run: cp dist/snake.svg dist/snake-dark.svg
+      - name: Generate Light Snake
+        run: cp dist/snake.svg dist/snake-light.svg
+
+      # 5. Deploy to output branch
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false  # prevents history bloating
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

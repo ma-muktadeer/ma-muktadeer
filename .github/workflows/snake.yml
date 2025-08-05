@@ -36,12 +36,17 @@ jobs:
       # 3. Add custom gradient (safe insert)
       - name: Add Gradient to Snake
         run: |
-          # Replace stroke color with gradient reference
-          sed -i 's/stroke="#[A-Fa-f0-9]\{6\}"/stroke="url(#gradient)"/' dist/snake.svg
-          # Inject gradient definition after <svg> tag
-          sed -i '0,/<svg[^>]*>/s//&\<defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff6a00"/><stop offset="50%" stop-color="#ee0979"/><stop offset="100%" stop-color="#06beb6"/></linearGradient></defs>/' dist/snake.svg
+          sed -i 's|stroke="#[A-Fa-f0-9]\{6\}"|stroke="url(#gradient)"|' dist/snake.svg
+          sed -i '0,@<svg[^>]*>@s@@&\
+          <defs>\
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">\
+          <stop offset="0%" stop-color="#ff6a00"/>\
+          <stop offset="50%" stop-color="#ee0979"/>\
+          <stop offset="100%" stop-color="#06beb6"/>\
+          </linearGradient>\
+          </defs>\
+          @' dist/snake.svg
           awk '/<\/svg>/ {print; exit} {print}' dist/snake.svg > dist/snake.tmp && mv dist/snake.tmp dist/snake.svg
-
       # 4. Optional: Create light & dark mode versions
       - name: Generate Dark Snake
         run: cp dist/snake.svg dist/snake-dark.svg

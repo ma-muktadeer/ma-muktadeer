@@ -14,38 +14,44 @@
 ---
 
 ### 👨‍💻 **About Me**
-- 🚀 Currently **Junior Full Stack Software Engineer** at **Softcafe IT Solution**
-- 🔭 Skilled in **Spring Boot 3.x, Angular 19, Flutter, MSSQL**
-- 🌍 Passionate about **building scalable web & mobile solutions**
-- 💬 Ask me about **Java, Angular, Flutter, Spring Boot**
-- 📫 Reach me at **muktadeer.ru@gmail.com**
-- 🧾 [Check My CV](https://muktadeercv.vercel.app/) | [Bitbucket Projects](https://bitbucket.org/muktadeer/)
+A dedicated **Full Stack Software Engineer** specializing in architecture design, robust backend systems, and highly interactive user interfaces. 
+
+- 🚀 Currently working as a **Sr Software Engineer(Front end)** at **Bdjobs.com**.
+- 🔭 Specialized in **Spring Boot 3.x+, Angular 19+, Flutter, MSSQL, and PostgreSQL**.
+- 🌍 Passionate about building enterprise web solutions, clean RESTful APIs, and cross-platform apps.
+- 💬 Let's talk about **Java, Angular Reactive Forms, Flutter Architecture, and Spring Security**.
+- 📫 Business Email: [muktadeer.ru@gmail.com](mailto:muktadeer.ru@gmail.com)
+- 🧾 Portfolio: [muktadeercv.vercel.app](https://muktadeercv.vercel.app/) | Git Hosting: [Bitbucket Projects](https://bitbucket.org/muktadeer/)
 
 ---
 
 ## **💻 Tech Stack**
 
-### **Backend**
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+### **Backend & Databases**
+<p align="left">
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="MSSQL"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>
+</p>
 
 
-### **Frontend**
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-CD6799?style=for-the-badge&logo=sass&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### **Frontend Frameworks**
+<p align="left">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/SCSS-CD6799?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS"/>
+</p>
 
+### **Mobile Ecosystem**
+<p align="left">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
+</p>
 
-### **Mobile**
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
 ### **Others**
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -84,7 +90,7 @@
 ## **🌐 Connect with Me**
 
 <p align="center">
-  <a href="https://linkedin.com/in/m-a-muktadeer-03469b176"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/ma-muktadeer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://fb.com/bandhon.apm.ru"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
   <a href="https://www.youtube.com/c/ithousebd"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
   <a href="https://www.hackerrank.com/muktadeer"><img src="https://img.shields.io/badge/Hackerrank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a>
